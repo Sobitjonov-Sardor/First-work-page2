@@ -13,30 +13,41 @@
         gap: 20px;
     }
     .main__info {
-        padding: 20px 10px;
+
         
     }
-    .v1 {
-        margin: 0 10px;
-    }
-    .info-sprint__title {
-        padding-right: 20px;
-    }
-    .info-audio__title {
-        padding-right: 20px;
-    }
-    .lvl-item {
-        gap: 15px;
+    .main-info__btn{
+       gap: 15px;
     }
     .main__info-lvl {
-        gap: 25px;
+        flex-wrap: wrap;
     }
     .main__block1 {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
     }
-
+    .main__info-books img {
+        margin-right: 5px;
+    }
+    .main__info-books span:nth-child(5) {
+        font-size: 24px;
+    }
+    .main__info-books span {
+        font-size: 24px;
+    }
+    .main__info-books img:nth-child(2) {
+        margin: 0 5px;
+    }
+    .main__ifno-functions span p:nth-child(2) {
+        padding: 14px 18px 14px 0;
+    }
+    .main__ifno-functions {
+        gap: 7px;
+    }
+    .main__info-books__text {
+        gap: 5px;
+    }
 }
 
 @media (max-width:767.99px) {
@@ -69,15 +80,8 @@
     .nav__login {
         gap: 10px;
     }
-    .main__info {
-        display: flex;
-    }
-    .main__info__content {
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        gap: 30px;
-    }
+
+
     .main__info-lvl {
         flex-wrap: wrap;
     }
@@ -102,6 +106,21 @@
         align-items: center;
         justify-content: center;
     }
+    .main__info__content {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .v1 {
+        display: none;
+    }
+    .main__info-books {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
 }
 
 @media (max-width:565.99px) {
@@ -123,24 +142,6 @@
     }
     .nav__login-apex {
         font-size: 14px;
-    }
-    .main__info-book {
-        font-size: 20px;
-    }
-    .main__info-textbook {
-        font-size: 20px;
-    }
-    .v1 {
-        margin: 0 5px;
-    }
-    .info-audio__title {
-        font-size: 14px;
-    }
-    .info-sprint__title {
-        font-size: 14px;
-    }
-    .main__info-img {
-        margin:0;
     }
     .block1__text-descr {
         font-size: 12px;
@@ -180,9 +181,6 @@
     .main__block3-element {
         width: 100%;
     }
-    .main__info-audio {
-        gap: 5px;
-    }
     .main__btn-links span:nth-child(3) {
         display: none;
     }
@@ -195,7 +193,18 @@
     .main__btn-links span:nth-child(7) {
         display: none;
     }
-    .main__info-img img {
-    width: 100%;
+    .main__info-books {
+        flex-wrap: wrap;
+    }
+    .main__ifno-functions span:nth-child(2) {
+        font-size: 13px;
+        gap: 4px; 
+    }
+    .main__ifno-functions span:nth-child(1) {
+        font-size: 13px;
+        gap: 4px; 
+    }
+    .main__ifno-functions span p:nth-child(2) {
+        padding: 14px 10px 14px 0;
     }
 }

@@ -1,9 +1,3 @@
-const menuBtn = document.querySelector('.menu-btn');
-
-menuBtn.addEventListener('click', function(){
-  menuBtn.classList.toggle('open');
-});
-
 const indicator = document.querySelector('.lvl-indicator');
 const items = document.querySelectorAll('.lvl-item');
 
@@ -26,3 +20,21 @@ items.forEach((item, index) => {
     item.addEventListener('click', (e) => { handleIndicator(e.target) });
     item.classList.contains('is-active') && handleIndicator(item);
 });
+
+const menuShowBtn = document.querySelector('.menu__show-btn')
+
+menuShowBtn.addEventListener('click', function(){
+    menuShowBtn.classList.toggle('open');
+  });
+  
+const menuDisplayBtn = document.querySelector('.menu__display-btn')
+
+menuDisplayBtn.addEventListener('click', function(){
+    menuDisplayBtn.classList.toggle('open');
+  });
+  
+const menuLinksBtn = document.querySelector('.liks-btn', '.liks-btn1')
+
+menuLinksBtn.addEventListener('click', function(){
+    menuLinksBtn.classList.toggle('open');
+  });  

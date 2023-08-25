@@ -17,7 +17,7 @@
             <div class="nav__menu-btn">
                 <div class="menu-btn">
                     <div class="nav__menu-list">
-                        <li><a href="" class="list__link1">Home</a></li>
+                        <li><a href="" class="list__link">Home</a></li>
                         <li><a href="" class="list__link">Textbook</a></li>
                         <li><a href="" class="list__link">Statistics</a></li>
                         <div class="list__menu">
@@ -33,7 +33,7 @@
                 </h1>
                 <img class="nav__logo-vector" src="./assets/images/Vector1.svg" alt="">
                 <ul class="nav_list">
-                    <li><a href="" class="list__link1">Home</a></li>
+                    <li><a href="" class="list__link">Home</a></li>
                     <li><a href="" class="list__link">Textbook</a></li>
                     <li><a href="" class="list__link">Statistics</a></li>
                     <div class="list__menu">
@@ -57,57 +57,68 @@
         <section class="section__info">
             <div class="container main__info">
                 <div class="main__info__content">
-                    <div class="main__info-direction">
-                        <img class="main__info-img" src="./assets/images/shapka.svg" alt="">
-                        <a href="#!" class="main__info-textbook">Textbook</a>
+                    <div class="main__info-books">
+                        <div class="main__info-books__text">
+                            <img src="./assets/images/shapka.svg" alt="">
+                            <span>Textbook</span>
+                        </div>
                         <img class="v1" src="./assets/images/Vector 1.svg" alt="">
-                        <img class="main__info-img" src="./assets/images/book.svg" alt="">
-                        <a href="#!" class="main__info-book">Dictionary</a>
+                        <div class="main__info-books__dic">
+                            <img src="./assets/images/book.svg" alt="">
+                            <span>Dictionary</span></div>
                     </div>
-                    <div class="main__info-function">
-                        <div class="main__info-sprint">
+                    <div class="main__ifno-functions">
+                        <span>
                             <img src="./assets/images/img-1.png" alt="">
-                            <p class="info-sprint__title">Sprint</p>
-                        </div>
-                        <div class="main__info-audio">
+                            <p>Sprint</p>
+                        </span>
+                        <span>
                             <img src="./assets/images/img-2.png" alt="">
-                            <p class="info-audio__title">Audio-Call</p>
-                        </div>
+                            <p>Audio-Call</p>
+                        </span>
                         <div class="info__function">
-                            <img class="info-function-img" src="./assets/images/function.svg" alt="">
-                            <div class="function__menu">
-                                <div class="function__show">
-                                    <input type="checkbox">
-                                    <span>Show words in a list</span>
+                            <div class="info__function-menu">
+                                <div class="menu__show">
+                                    <button type="button" class="menu__show-btn"><img src="./assets/images/true.svg"
+                                            alt=""></button>
+                                    <p>Show words in a list</p>
                                 </div>
-                                <div class="function__display">
-                                    <input type="checkbox">
-                                    <span>Display the 'Add' and 'Remove' buttons</span>
+                                <div class="menu__display">
+                                    <button type="button" class="menu__display-btn"><img src="./assets/images/true.svg"
+                                            alt=""></button>
+                                    <p>Display the 'Add' and 'Remove' buttons</p>
                                 </div>
                             </div>
+                            <img src="./assets/images/function.svg" alt="">
                         </div>
-
                     </div>
                 </div>
                 <div class="main__info-lvl">
-                    <a href="#!" class="lvl-item is-active" active-color="green">A1
+                    <div class="main-info__btn">
+                        <a href="#!" class="lvl-item is-active" active-color="green">A1
+                        </a>
                         <span class="a1">easy</span>
-                    </a>
-                    <a href="#!" class="lvl-item" active-color="green">A2
+                    </div>
+                    <div class="main-info__btn">
+                        <a href="#!" class="lvl-item" active-color="green">A2</a>
                         <span class="a2">easy</span>
-                    </a>
-                    <a href="#!" class="lvl-item" active-color="yellow">B1
+                    </div>
+                    <div class="main-info__btn">
+                        <a href="#!" class="lvl-item" active-color="yellow">B1</a>
                         <span class="b1">medium</span>
-                    </a>
-                    <a href="#!" class="lvl-item" active-color="yellow">B2
-                        <span class="b1">medium</span>
-                    </a>
-                    <a href="#!" class="lvl-item" active-color="red">C1
+                    </div>
+                    <div class="main-info__btn">
+                        <a href="#!" class="lvl-item" active-color="yellow">B2</a>
+                         <span class="b1">medium</span>
+                    </div>
+                    <div class="main-info__btn">
+                        <a href="#!" class="lvl-item" active-color="red">C1</a>
                         <span class="c1">hard</span>
-                    </a>
-                    <a href="#!" class="lvl-item" active-color="red">C2
+                    </div>
+                    <div class="main-info__btn">
+                        <a href="#!" class="lvl-item" active-color="red">C2</a>
                         <span class="c1">hard</span>
-                    </a>
+                    </div>
                     <span class="lvl-indicator"></span>
                 </div>
             </div>
@@ -227,15 +238,15 @@
         </section>
         <section class="main__btn">
             <div class="container main__btn-links">
-                <span>←</span>
-                <span>1</span>
-                <span>2</span>
-                <span>3</span>
-                <span>...</span>
-                <span>27</span>
-                <span>28</span>
-                <span>29</span>
-                <span>→</span>
+                <span class="liks-btn">←</span>
+                <span class="liks-btn">1</span>
+                <span class="liks-btn">2</span>
+                <span class="liks-btn">3</span>
+                <span >...</span>
+                <span class="liks-btn">27</span>
+                <span class="liks-btn">28</span>
+                <span class="liks-btn">29</span>
+                <span class="liks-btn">→</span>
 
             </div>
         </section>
